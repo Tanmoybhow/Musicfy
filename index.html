@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musicfy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div>
+                <a href="#">
+                    Musicfy
+
+                </a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search songs here">
+                <button id="search_btn" value="Search Song">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="side_bar">
+                <nav class="side_bar_nav">
+                    <h1>My Playlist
+                        <span><i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-clover"></i>
+
+                        </span>
+                    </h1>
+                    <i class="fa-solid fa-bars" id="sidebar_btn"></i>
+                </nav>
+                
+                <ul class="song-list">
+                    
+                   
+                </ul>
+    <p class="credit">Created with <i class="fa-solid fa-heart" style="color: red;"></i> by Tanmoy Bhowmik</p>
+                
+                
+            </div>
+            <div class="main_content">
+                <div class="bg_img">
+                    <img src="img/ranjha-1.jpg" alt="" width="100%" height="100%">
+                </div>
+                <div class="music_card">
+                    <div class="img_container">
+                        <img src="img/ranjha-1.jpg" alt="">
+                    </div>
+                    <h2 class="title">
+                        ranjha
+                    </h2>
+                    <h3 class="artist">
+                        Arijit Singh
+                    </h3>
+                    <audio src=""></audio>
+                    <!-- Progress-bar -->
+                    <div class="progressbar_container" id="progressbar_container">
+                        <div class="progress_duration_meter">
+                            <div id="current_time">
+                              
+                            </div>
+                            <div id="duration">
+                                
+                            </div>
+                        </div>
+                        <div class="progress_div">
+                            <div class="progress" id="progress">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="music_controls">
+                        <i class="fa-solid fa-backward" id="prev" title="Previous"></i>
+                        <i class="fa-solid fa-play main_button" id="play" title="Play"></i>
+                        <i class="fa-solid fa-forward" id="next" title="Next"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <p style="text-align: center;padding: 10px 0;font-size: 14px;">Created with <i class="fa-solid fa-heart" style="color: red;"></i> by Tanmoy Bhowmik</p>
+    <script src="script.js"></script>
+</body>
+
+</html>
